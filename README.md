@@ -10,7 +10,8 @@ $5.00 USD/mo,1vCore,1GB RAM,15GB Disk Space,1IPv4,30TBANDWIDTH,1Gbps Port Speed
 服务器证书生成忽略  
 
 yum安装openvpn  
-curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/  repo/epel-7.repo yum clean all && yum makecache  
+curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo  
+yum clean all && yum makecache    
 yum install -y openvpn  
 
 mysql安装（5.7）  
